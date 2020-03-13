@@ -1,0 +1,5 @@
+vendor/
+.vscode
+.idea
+.git
+.DS_Store

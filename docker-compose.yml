@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    networks:
+      - appnet
+    ports:
+      - "3000:3000"
+networks:
+  appnet:
+    driver: bridge

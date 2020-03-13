@@ -1,0 +1,15 @@
+vendor/
+node_modules/
+.DS_Store
+.serverless/
+.env
+
+# Editors folders
+.vscode
+.idea
+
+# Ignore what is inside bin
+bin/*
+
+# inform git to keep this folder
+!.keep
